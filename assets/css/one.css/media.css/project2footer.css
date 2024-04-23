@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* footer */
+.ironman{
+    background-color: #092759;
+    font-size: 15px;
+}
+.spiderman{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pantherchild1{
+    height:20px;
+    width: 20px;
+}
+.blackpanther1{ 
+padding:20px;
+color:white;
+width:350px;
+}
+.blackpanther2{ 
+    padding:20px;
+    color:white;
+    }
+    .gamora>li>a{
+        text-decoration: none;
+        color: white;
+    }
+    .gamora>li{
+        list-style-type: none;
+    }
+    .gamora li:hover{
+        text-decoration: underline;
+    }
+    .blackpanther3>li>p>img{
+        height: 20px;
+        width: 20px;
+        /* display: flex; */
+    }
+    
+    .blackpanther3>li>p>a{
+        margin-left: 40px;
+        position:absolute;
+        position-left:3px;
+        color:white;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .pantherchild4{
+        position: absolute;
+        margin-top: 10px;
+
+
+    }
+    .blackpanther4{ 
+            margin-top: 40px;
+            margin-left: 140px;
+            width: 250px;
+            padding-left: 40px;
+            padding-top: 20px;
+ }
+ .pantherchild1{
+border-radius: 50px;
+ }
+ h3{
+    color:white;
+
+ }
+
+ .blackpanther3{
+    padding: 20px 20px 20px 20px;
+ }
+    
+ .thor{
+    color:white;
+ }
+ .thor>img{
+    height:30px;
+    width: 30px;
+    margin-left: 960px;
+    margin-top: -270px;
+ }
+ .thor>p{
+    margin-left: 10px;
+ }
+ .thor>li{
+    text-decoration:aliceblue;
+    margin-left: 950px;
+    margin-top: -40px;
+    padding: 30px 30px 30px 30px;
+    list-style-type: none;
+ }
+ .thor>li>a:hover{
+    text-decoration:underline;
+ }
+ .thorchild1:hover{
+     background-color:rgb(40, 30, 107);
+     box-shadow:5px;
+     border-radius: 5px;
+     position: sticky;
+ }
+ .thor>img{
+    margin-left: 1490px;
+ }
+ .thorchild2{
+    color: white;
+    text-decoration: none;
+    margin-left: 1450px;
+    
+ }
+ @media  screen and (min-width:769px) and (max-width:1025px) {
+    .ironman{
+        width:100vw;
+    } 
+
+
+    #rock{
+        margin-left: 890px;
+    }
+
+    .thorchild2{
+        margin-left: 850px;
+    }
+
+}
+@media  screen and (min-width:426px) and (max-width:769px) {
+    #rock{
+        margin-left: 720px;
+    }
+    .thorchild2{
+        margin-left: 650px;
+    }
+
+}
+@media  screen and (max-width:426px) {
+    #rock{
+        margin-left: 480px;
+    }
+    .thorchild2{
+      margin-left:420px ;
+    }
+    .ironman{
+        width:550px
+    }
+}

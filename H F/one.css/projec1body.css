@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* .captainamerica{
+    border: 3px solid red;
+} */
+.baki{
+    display: flex;
+    padding-top: px;
+    background-color: #092759   ;
+    margin-top: 30px;
+    margin-left:30px;
+    margin-right:20px ;
+
+}
+.bakichild1{
+    background-color: red;
+    height:55px;
+    color:white;
+    padding-top: 17px;
+}
+.bakichild2{
+    color:white;
+    margin-top: 15px;
+}
+.bakichild2 a{
+    color:white;
+}
+.scarlet{
+    margin-left: 80px;
+    margin-right: 200px;
+}
+.deadpoolchild1{
+    margin-left: 50px;
+}
+.sepbody{
+    width: 60%;
+}
+h1{
+    color:#092759;
+}
+.scarletchild1{
+    display: flex;
+    justify-content: space-between;
+} 
+ 
+.scarletchild2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.wonderwoman{
+    background-color: #092759;
+    padding-left: 50px;
+}
+.wonderwomanchild1{
+    color:white;
+    padding-top: 40px;
+    margin-left: 100px;
+    }
+    .smlbdr{
+        border: 1px solid orange;
+        width: 40px;
+        margin-top: -12px;
+        margin-left: 40px;
+    
+        height: 0px;
+    }
+    .smlbdr2{
+        border: 1px solid orange;
+        width: 40px;
+        margin-top: -12px;
+        margin-left: -50px;
+    
+        height: 0px;
+    }
+h4{color:orange;
+
+}
+.antman1{
+    display:flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+.antman11{
+    color:white;
+    padding:5px;
+    width: 320px;
+
+}
+.antman11:hover{
+    border: 1px solid orange;
+}
+.antman2{
+    display:flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+.antman21{
+    color:white;
+    padding:5px;
+    width: 320px;
+
+
+}
+.antman21:hover{
+    border: 1px solid orange;
+}
+.antman3{
+    color:white;
+    padding:50px;
+    width: 320px;
+    margin-left: 110px;
+
+    
+}
+.antman3:hover{
+    border: 1px solid orange;
+    
+
+}
+.antman21:hover{
+        border: 1px solid orange;
+        }
+    .antman1{
+        padding:20px;
+        text-align: justify;
+    }
+     .deadpool{
+        background-color: white;
+        margin-left: 50px;
+        justify-content: center;
+    } 
+    .deadpoolchild2>img{
+        height: 300px;
+        width:420px;
+        padding: 0px 0px 20px 20px;
+        
+    }
+    .deadpoolchild33{
+        position: absolute;
+        z-index: 1;
+        background-color: #092759;
+        margin-top: -70px;
+        color: white;
+        font-size: 20px;
+        margin-left: 900px;
+        opacity: 0.6;
+        width:350px;
+        text-align: center;
+
+    }
+    .deadpoolchild32{
+        position: absolute;
+        z-index:1;
+        background-color: #092759;
+        margin-top: -70px;
+        color: white;
+        font-size: 20px;
+        margin-left: 450px;
+        opacity: 0.6;
+        width:350px;
+        text-align: center;
+    }
+    .deadpoolchild31{
+        position: absolute;
+        z-index: 1;
+        background-color:#092759;
+        margin-top: -70px;
+        color: white;
+        font-size: 20px;
+        margin-left: 50px;
+        opacity: 0.6;
+        width:300px;
+        text-align: center;
+
+    }
+    .volvarinchild1{
+        padding-left: 50px;
+        
+    }
+    .volvarinchild1>img{
+        float: right;
+
+    }
+    .volvorinchild11{
+        font-size: 50px;
+        color: rgb(40, 40, 135);
+        
+    }
+    .volvorinchild12{
+        background-color:aliceblue;
+        text-decoration: none;
+        width: 120px;
+        color: white;
+        height: 30px;
+        text-align: center;
+       padding: 1px 1px 1px 1px;
+
+    }
+    .volvarin{
+        background-color: orange;
+        padding-top: 70px;
+         padding-bottom: 40px;
+         height: 800px;
+         margin-left: -50px;
+        
+        
+    }
+    .mapimage{
+        width: 600px;
+    }
+    .volvarinchild1>p{
+        color:white
+    }
+    .msg1{
+        margin-top:40px ;
+        margin-left: 200px;
+    }
+    .hulk{
+        padding-left: 70px;
+        background-color: #092759;
+        height:1000px;
+        padding-top: 50px;
+    }
+    .hulk>li{
+        list-style-type:decimal;
+    }
+    .hulkchild1{
+        color: white;
+        width: 390px;
+        height: 450px;
+    }
+    .hulkchild2{
+        color: white;
+        width: 390px;
+        height: 450px;
+        padding: 30px;
+    }
+    .hulkchild3{
+        color: white;
+        width: 390px;
+        height: 450px;
+        padding:30px;
+    }
+    .hulkchild2:hover{
+        border: 2px solid ORANGE;
+
+    }
+    .hulkchild3:hover{
+        border: 2px solid ORANGE;
+
+    }
+    .hulkchild11{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .hulkchild1>h1{
+        color: orange;
+    }
+    
+    .hulkchild2:hover{
+        border: 2px solid orange;
+        /* height: 410px; */
+    }
+    .hulkchild2>h4{
+        color: white;
+    }
+    
+    .hulkchild3>h4{
+        color: white;
+    }
+    .hulkchild4{
+   
+        width: 300px;
+        color: white;
+        margin-left: 130px;
+        position: absolute;
+        margin-top: 450px;
+        padding: 20px;
+    }
+    .hulkchild4:hover{
+        border: 3px solid orange;
+    }
+    .form{
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .f1{
+        background-color:#f6ba1e;
+        margin-left: 300px;
+    }
+    .hulkchild5{
+        position: absolute;
+        margin-top:450px ;
+        width: 300px;
+        margin-left:550px;
+        color: white;
+        padding: 20px;
+    }
+    .hulkchild5:hover{
+        border: 2px solid ORANGE;
+    }
+    .hulkchild6{
+        position: absolute;
+        margin-top:450px ;
+        width: 300px;
+        margin-left:950px;
+        color: white;
+        padding: 20px;
+    }
+    .hulkchild6:hover{
+        border: 2px solid ORANGE;
+    }
+    .hulkchild7{
+        color: ORANGE;
+        background-color: ORANGE;
+      border:1px solid ORANGE;
+        margin-top: 850px;
+        width: 1100px;
+        margin-left: 120px;
+    }
+    .hulkchild8{
+        background-color: #092759;
+        margin-top: -40px;
+
+    }
+    .hulkchild8>p{
+        color:white;
+        margin-top: 100px;
+        margin-left: 180px;
+        padding-top: 50px;
+    }
+    .hulkchild8>h1{
+        color: white;
+        margin-left: 180px;
+    }
+    #hulkchild81{
+        color: white;
+        padding: left 50px;
+        padding-right: 50px;
+        margin-top: -20px;
+        margin-left: 100px;
+
+    }
+    .hulkchild8>img{
+        margin-top: 100px;
+        width: 90%;
+        padding-left: 100px;
+        padding-right: 20px;
+        height:450px
+
+    }
+    .hulkchild82{
+        color: white;
+        padding-left: 110px;
+    }
+
+@media  and (min-width:768px) and (max-width:1025px) {
+    .deadpoolchild2>img{
+        height: 300px;
+        width:420px;
+        padding: 0px 0px 0px 0px;
+        
+    }
+    }
+        
+    }
+    
+
+        
+        

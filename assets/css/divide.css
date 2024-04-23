@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+  .year_image{
+      background-image: url('/assets/uploads/images/project_main_image.jpeg');
+      background-size: cover;
+      background-position: center;
+      width:100%;
+      height:30vh;
+    }
+    .image_main{
+      background-color:#092759;
+      height: 30vh;
+      opacity: 0.9;
+      color: white;
+    }
+    .year_head{
+      color: white;
+    }
+    .year_para{
+      padding-top:30px;
+      color: white;
+      padding-left: 10px;
+    }
+    .year_finance{
+      color: #091c57;
+      font-size:40px;
+    }
+    .crore_heading{
+      text-align: end;
+      font-size:20px;
+      color: #091c57;
+    }
+    .heading{
+      font-size:12px;
+      background-color: #091c57;
+      color: white;
+      height:50px;
+      width:74px;
+      text-align:center;
+      padding-top:15px;
+      border-right: 1px solid white;
+    }
+    .heading_para{
+      font-size:12px;
+      background-color:#f5f4f2;
+      color:black;
+      height:30px;
+      width:74px ;
+      text-align: center;
+      padding-top:3px;
+      border-right: 1px solid #091c57;
+    }
+    .back_color{
+      background-color: gray;
+      height:30px;
+      width:74px;
+    }
+    .card{
+        background-color: #091c57;
+        padding:10px;
+        margin:10px;
+        border-radius: 5px;
+      }
+    .years_card{
+      color: white;
+      height: 50px;
+      text-decoration: none;
+      border-width: 0px;
+      padding-left: 23px;
+      padding-top: 20px;
+      font-size:15px;
+    }
+    .card li:hover{
+      background-color: white;
+      color:#091c57;
+      text-decoration: none;
+    
+    }
+    .list_card{
+      background-color: #091c57;
+      color: white;
+      padding: 10px;
+      font-size:14px;
+      padding-left:20px;
+      height:38px;
+      width:220px;
+      padding:5px;
+      margin:1px;
+      border-width: 0px;
+    }
+    .annual_sec{
+      background-color:#f5f4f2;
+      margin: 2px;
+      height:40px;
+      color: black;
+      padding: 10px;
+    }
+    .list_font{
+      font-size: 14px;
+      text-decoration: none;
+    }
+    div a:hover{
+        text-decoration: none;
+        color:black;
+        background-color: white;
+        border-radius:8px;
+      }
+    .dro_btn{
+      background-color: #091c57;
+      border-width: 0px;
+      color: white;
+      height: 50px;
+      width:250px;
+      font-size:13px;
+      padding: 10px;
+    }
+    .dro_content{
+      position: absolute;
+      display:none;
+      z-index: 1;
+      font-size: 13px;
+      border: 1px solid black;
+      margin: 1px;
+      color: black;
+    }
+    .dro{
+      position:relative;
+      display: inline-block;
+    }
+    .dro_content.a{
+      color: black;
+      background-color:#f5f4f2;
+      width:70px;
+      display:block;
+      margin: 2px;
+    }
+    .dro:hover .dro_content{
+      display:block;
+    }
+    .dro_content a:hover{
+      background-color:#f5f4f2;
+      color: black;
+    }
+    .image_name{
+        text-align: center;
+        border: 1px solid gray;
+        width: 270px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .image_cover{
+        height: 100px;
+        width: 120px;
+    }
+    .div_back:hover{
+         background-color: white;
+    } 
+    .div_box{
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        font-size:15px;
+        height:70px;
+        text-align: center;
+        padding-top:30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .div_head{
+      border-left: 1px solid gray;
+      width: 117px;
+    }
+
+
+/* #Laptop View */
+@media screen and (min-width:769px) and (max-width:1024px){
+ 
+}
+/* *#Tab View */
+@media screen and (min-width:426px) and (max-width:769px){
+  .div_pa{
+    font-size:13px;
+  }
+  .div_fina{
+    padding-bottom:8px;
+    font-size:8px;
+    width: 397px;
+  }
+  .div_twenty{
+    font-size:10px;
+    width:400px;
+    height:70px;
+  }
+}
+@media screen and (max-width:426px){
+  .card{
+     width: 150px;
+  }
+  .list_card{
+    font-size:8px;
+    width: 130px;
+
+  }
+  .year_finance{
+    font-size:20px;
+  }
+  .div_pa{
+    font-size: 10px;
+  }
+  .div_box{
+    font-size:6px;
+    width:50px;
+  }
+  .div_twenty{
+    font-size:10px;
+    width:150px;
+  }
+}
+    
+
+    
